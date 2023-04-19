@@ -1,4 +1,4 @@
-package com.ereyes.cryptocurrencyappjetpackcompose.ui.theme
+package com.ereyes.cryptocurrencyappjetpackcompose.presentation.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
