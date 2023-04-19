@@ -1,4 +1,4 @@
-package com.ereyes.cryptocurrencyappjetpackcompose
+package com.ereyes.cryptocurrencyappjetpackcompose.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,7 +10,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.ereyes.cryptocurrencyappjetpackcompose.ui.theme.CryptocurrencyAppJCTheme
+import com.ereyes.cryptocurrencyappjetpackcompose.presentation.ui.theme.CryptocurrencyAppJCTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
