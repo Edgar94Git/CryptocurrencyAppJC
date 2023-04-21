@@ -39,7 +39,7 @@ import com.google.accompanist.flowlayout.FlowRow
 fun CoinDetailScreen(
     viewModel: CoinDetailViewModel = hiltViewModel()
 ){
-    val state = viewModel.state().value
+    val state = viewModel.state.value
 
     Box(modifier = Modifier.fillMaxWidth()){
         state.coin?.let { coin ->
